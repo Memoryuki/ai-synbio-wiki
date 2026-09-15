@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="螺旋骨架生成、界面网络搜索与结构预测。"><meta name="theme-color" content="#10206b"><title>AI 与计算方法 · TJU-why</title><link rel="icon" href="/ai-synbio-wiki/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/ai-synbio-wiki/assets/styles.css"><script defer src="/ai-synbio-wiki/assets/main.js"></script></head>
+<body>
+<a class="skip-link" href="#main-content">跳到正文</a>
+<header class="site-header"><div class="header-inner container"><a class="brand" href="/ai-synbio-wiki/index.html" aria-label="TJU-why 首页"><img src="/ai-synbio-wiki/assets/logo.webp" alt="" width="44" height="44"><span><strong>TJU-why</strong><small>天津大学 · 蛋白质设计</small></span></a>
+<button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-menu">菜单 <span aria-hidden="true">☰</span></button>
+<nav id="site-menu" class="site-nav" data-menu aria-label="主导航"><a class="nav-home" href="/ai-synbio-wiki/index.html">首页</a><div class="nav-group"><a class="group-link" href="/ai-synbio-wiki/pages/project-description.html">项目</a><details class="nav-dropdown"><summary aria-label="展开项目导航"><span aria-hidden="true">⌄</span></summary><ul><li><a href="/ai-synbio-wiki/pages/project-description.html">项目描述</a></li><li><a href="/ai-synbio-wiki/pages/design.html">设计路线</a></li></ul></details></div><div class="nav-group"><a class="group-link" href="/ai-synbio-wiki/pages/ai-computational-methods.html" data-current-group="true">研究</a><details class="nav-dropdown"><summary aria-label="展开研究导航"><span aria-hidden="true">⌄</span></summary><ul><li><a href="/ai-synbio-wiki/pages/ai-computational-methods.html" aria-current="page">AI 与计算方法</a></li><li><a href="/ai-synbio-wiki/pages/wet-lab-experiments.html">实验与结果</a></li><li><a href="/ai-synbio-wiki/pages/parts.html">构建体索引</a></li></ul></details></div><div class="nav-group"><a class="group-link" href="/ai-synbio-wiki/pages/integrated-validation.html">验证</a><details class="nav-dropdown"><summary aria-label="展开验证导航"><span aria-hidden="true">⌄</span></summary><ul><li><a href="/ai-synbio-wiki/pages/integrated-validation.html">整合验证</a></li><li><a href="/ai-synbio-wiki/pages/verifiability.html">研究资料</a></li><li><a href="/ai-synbio-wiki/pages/engineering-cycle.html">工程迭代</a></li></ul></details></div><div class="nav-group"><a class="group-link" href="/ai-synbio-wiki/pages/ai-ethics-safety.html">责任与贡献</a><details class="nav-dropdown"><summary aria-label="展开责任与贡献导航"><span aria-hidden="true">⌄</span></summary><ul><li><a href="/ai-synbio-wiki/pages/ai-ethics-safety.html">AI 伦理与安全</a></li><li><a href="/ai-synbio-wiki/pages/human-practices.html">人类实践</a></li><li><a href="/ai-synbio-wiki/pages/education.html">教育与科普</a></li><li><a href="/ai-synbio-wiki/pages/collaboration.html">合作与支持</a></li><li><a href="/ai-synbio-wiki/pages/attributions.html">贡献与致谢</a></li></ul></details></div></nav></div></header>
+
+<div class="document-shell">
+<aside class="section-nav" aria-label="全站文档目录"><section class="directory-group"><h2>首页</h2><ul><li><a href="/ai-synbio-wiki/index.html">首页</a></li></ul></section><section class="directory-group"><h2>项目</h2><ul><li><a href="/ai-synbio-wiki/pages/project-description.html">项目描述</a></li><li><a href="/ai-synbio-wiki/pages/design.html">设计路线</a></li></ul></section><section class="directory-group"><h2>研究</h2><ul><li><a href="/ai-synbio-wiki/pages/ai-computational-methods.html" aria-current="page">AI 与计算方法</a></li><li><a href="/ai-synbio-wiki/pages/wet-lab-experiments.html">实验与结果</a></li><li><a href="/ai-synbio-wiki/pages/parts.html">构建体索引</a></li></ul></section><section class="directory-group"><h2>验证</h2><ul><li><a href="/ai-synbio-wiki/pages/integrated-validation.html">整合验证</a></li><li><a href="/ai-synbio-wiki/pages/verifiability.html">研究资料</a></li><li><a href="/ai-synbio-wiki/pages/engineering-cycle.html">工程迭代</a></li></ul></section><section class="directory-group"><h2>责任与贡献</h2><ul><li><a href="/ai-synbio-wiki/pages/ai-ethics-safety.html">AI 伦理与安全</a></li><li><a href="/ai-synbio-wiki/pages/human-practices.html">人类实践</a></li><li><a href="/ai-synbio-wiki/pages/education.html">教育与科普</a></li><li><a href="/ai-synbio-wiki/pages/collaboration.html">合作与支持</a></li><li><a href="/ai-synbio-wiki/pages/attributions.html">贡献与致谢</a></li></ul></section></aside>
+<main id="main-content" class="article-main" tabindex="-1">
+<header class="page-header"><p class="breadcrumb"><a href="/ai-synbio-wiki/index.html">首页</a><span aria-hidden="true"> / </span>研究</p><h1>AI 与计算方法</h1><p class="page-summary">螺旋骨架生成、界面网络搜索与结构预测。</p></header>
+<details class="mobile-toc"><summary>本页目录</summary><div class="toc">
+<ul>
+<li><a href="#task">设计任务</a></li>
+<li><a href="#modules">计算模块</a></li>
+<li><a href="#evaluation">预测与实验评价</a></li>
+<li><a href="#references">方法文献</a></li>
+</ul>
+</div>
+</details>
+<article class="content">
+<h2 id="task">设计任务</h2>
+<p>计算设计的目标是在螺旋寡聚化支架中安置酸响应 His–Asn 网络，同时保留核酸结合与膜相互作用的功能分区。候选螺旋几何、连接方式和界面约束构成输入，候选结构与蛋白序列构成输出。</p>
+<h2 id="modules">计算模块</h2>
+
+<div aria-label="骨架设计与结构评估" class="table-region" role="region" tabindex="0"><table><caption>骨架设计与结构评估</caption>
+<thead>
+<tr>
+<th scope="col">模块</th>
+<th scope="col">输入与输出</th>
+<th scope="col">用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Crick 参数化</td>
+<td>螺旋几何参数 → 候选主链</td>
+<td>构建内外螺旋支架</td>
+</tr>
+<tr>
+<td>GeneralizedKIC</td>
+<td>螺旋与环区约束 → 闭合连接构象</td>
+<td>连接螺旋片段</td>
+</tr>
+<tr>
+<td>HBNet</td>
+<td>支架与侧链构象 → 界面极性网络</td>
+<td>搜索埋藏极性相互作用得到满足的网络</td>
+</tr>
+<tr>
+<td>RosettaDesign</td>
+<td>网络与支架 → 序列</td>
+<td>设计支架其余位点</td>
+</tr>
+<tr>
+<td>AlphaFold2</td>
+<td>蛋白序列 → 预测结构与置信度</td>
+<td>评估候选结构</td>
+</tr>
+</tbody>
+</table></div>
+<p>骨架、连接、网络和序列设计构成 PR3H 的计算设计过程，结构预测用于后续评估。[图1a–d；补充图 S1–S2]</p>
+<figure class="research-figure" id="fig-s1"><img alt="HBNet 候选网络的相互作用图与筛选示意" decoding="async" height="664" loading="lazy" src="/ai-synbio-wiki/results/figures/si-01.webp" width="566"/><figcaption><strong>图 S1 · HBNet 氢键网络筛选</strong> HBNet 以侧链相互作用图表示候选网络，保留能量有利且埋藏极性相互作用得到满足的网络；右侧显示未满足相互作用的排除示意。 <a class="full-image" href="/ai-synbio-wiki/results/figures/si-01-full.png">查看大图 ↗</a></figcaption></figure>
+<p>HBNet 通过侧链相互作用搜索网络，筛选时关注埋藏极性供体和受体是否得到满足，从而将酸响应设计落实到亚基界面。</p>
+<h2 id="evaluation">预测与实验评价</h2>
+<p>AlphaFold2 的 pLDDT 用于评价预测结构的局部置信度。CD 表征整体二级结构，SEC 比较不同 pH 下的蛋白洗脱行为，脂质体泄漏实验检验膜相互作用。各项读出分别对应结构可信度、实验构象特征与功能表现。</p>
+<figure class="research-figure" id="fig-s2"><img alt="各变体按残基位置展示的 AlphaFold2 pLDDT 曲线" decoding="async" height="1346" loading="lazy" src="/ai-synbio-wiki/results/figures/si-02.webp" width="900"/><figcaption><strong>图 S2 · 变体的 AlphaFold2 预测置信度</strong> 各变体随残基位置变化的 pLDDT 曲线，用于评价局部结构预测置信度。 <a class="full-image" href="/ai-synbio-wiki/results/figures/si-02-full.png">查看大图 ↗</a></figcaption></figure>
+<p>网络层数、末端疏水性与环区电荷分别形成 PR3H / PR2H / PR1H、PR3HM1 / PR3HM2 和 PR3H3 / PR3H5 对照。预测提出结构假设，变体实验检验这些假设与递送功能的关系。详见 <a href="/ai-synbio-wiki/pages/integrated-validation.html">整合验证</a>。</p>
+<h2 id="references">方法文献</h2>
+<ol>
+<li>Boyken et al. <em>De novo design of protein homo-oligomers with modular hydrogen-bond network–mediated specificity</em>. Science (2016). <a href="https://doi.org/10.1126/science.aad8865">DOI</a>。</li>
+<li>Boyken et al. <em>De novo design of tunable, pH-driven conformational changes</em>. Science (2019). <a href="https://doi.org/10.1126/science.aav7897">DOI</a>。</li>
+<li>Huang et al. <em>High thermodynamic stability of parametrically designed helical bundles</em>. Science (2014). <a href="https://doi.org/10.1126/science.1257481">DOI</a>。</li>
+<li><a href="https://github.com/google-deepmind/alphafold">AlphaFold 代码与方法</a>。</li>
+</ol></article>
+<nav class="page-pagination" aria-label="上一篇与下一篇"><a href="/ai-synbio-wiki/pages/design.html"><span>← 上一页</span>设计路线</a><a href="/ai-synbio-wiki/pages/wet-lab-experiments.html"><span>下一页 →</span>实验与结果</a></nav>
+</main>
+<aside class="page-toc" aria-label="本页目录"><p class="eyebrow">本页目录</p><div class="toc">
+<ul>
+<li><a href="#task">设计任务</a></li>
+<li><a href="#modules">计算模块</a></li>
+<li><a href="#evaluation">预测与实验评价</a></li>
+<li><a href="#references">方法文献</a></li>
+</ul>
+</div>
+<a class="back-top" href="#main-content">返回顶部 ↑</a></aside>
+</div>
+
+<footer class="site-footer"><div class="container footer-inner"><div><strong>TJU-why</strong><p>天津大学 · pH 响应蛋白载体</p></div><nav aria-label="页脚导航"><a href="/ai-synbio-wiki/pages/ai-ethics-safety.html">伦理与安全</a><a href="/ai-synbio-wiki/pages/attributions.html">贡献与致谢</a><a href="/ai-synbio-wiki/pages/verifiability.html">研究资料</a></nav></div><div class="container footer-bottom"><span>© 2026 TJU-why</span></div></footer>
+</body></html>

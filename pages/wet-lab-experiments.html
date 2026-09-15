@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="支架表征、siRNA 共组装与细胞及小鼠中的基因沉默。"><meta name="theme-color" content="#10206b"><title>实验与结果 · TJU-why</title><link rel="icon" href="/ai-synbio-wiki/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/ai-synbio-wiki/assets/styles.css"><script defer src="/ai-synbio-wiki/assets/main.js"></script></head>
+<body>
+<a class="skip-link" href="#main-content">跳到正文</a>
+<header class="site-header"><div class="header-inner container"><a class="brand" href="/ai-synbio-wiki/index.html" aria-label="TJU-why 首页"><img src="/ai-synbio-wiki/assets/logo.webp" alt="" width="44" height="44"><span><strong>TJU-why</strong><small>天津大学 · 蛋白质设计</small></span></a>
+<button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-menu">菜单 <span aria-hidden="true">☰</span></button>
+<nav id="site-menu" class="site-nav" data-menu aria-label="主导航"><a class="nav-home" href="/ai-synbio-wiki/index.html">首页</a><div class="nav-group"><a class="group-link" href="/ai-synbio-wiki/pages/project-description.html">项目</a><details class="nav-dropdown"><summary aria-label="展开项目导航"><span aria-hidden="true">⌄</span></summary><ul><li><a href="/ai-synbio-wiki/pages/project-description.html">项目描述</a></li><li><a href="/ai-synbio-wiki/pages/design.html">设计路线</a></li></ul></details></div><div class="nav-group"><a class="group-link" href="/ai-synbio-wiki/pages/ai-computational-methods.html" data-current-group="true">研究</a><details class="nav-dropdown"><summary aria-label="展开研究导航"><span aria-hidden="true">⌄</span></summary><ul><li><a href="/ai-synbio-wiki/pages/ai-computational-methods.html">AI 与计算方法</a></li><li><a href="/ai-synbio-wiki/pages/wet-lab-experiments.html" aria-current="page">实验与结果</a></li><li><a href="/ai-synbio-wiki/pages/parts.html">构建体索引</a></li></ul></details></div><div class="nav-group"><a class="group-link" href="/ai-synbio-wiki/pages/integrated-validation.html">验证</a><details class="nav-dropdown"><summary aria-label="展开验证导航"><span aria-hidden="true">⌄</span></summary><ul><li><a href="/ai-synbio-wiki/pages/integrated-validation.html">整合验证</a></li><li><a href="/ai-synbio-wiki/pages/verifiability.html">研究资料</a></li><li><a href="/ai-synbio-wiki/pages/engineering-cycle.html">工程迭代</a></li></ul></details></div><div class="nav-group"><a class="group-link" href="/ai-synbio-wiki/pages/ai-ethics-safety.html">责任与贡献</a><details class="nav-dropdown"><summary aria-label="展开责任与贡献导航"><span aria-hidden="true">⌄</span></summary><ul><li><a href="/ai-synbio-wiki/pages/ai-ethics-safety.html">AI 伦理与安全</a></li><li><a href="/ai-synbio-wiki/pages/human-practices.html">人类实践</a></li><li><a href="/ai-synbio-wiki/pages/education.html">教育与科普</a></li><li><a href="/ai-synbio-wiki/pages/collaboration.html">合作与支持</a></li><li><a href="/ai-synbio-wiki/pages/attributions.html">贡献与致谢</a></li></ul></details></div></nav></div></header>
+
+<div class="document-shell">
+<aside class="section-nav" aria-label="全站文档目录"><section class="directory-group"><h2>首页</h2><ul><li><a href="/ai-synbio-wiki/index.html">首页</a></li></ul></section><section class="directory-group"><h2>项目</h2><ul><li><a href="/ai-synbio-wiki/pages/project-description.html">项目描述</a></li><li><a href="/ai-synbio-wiki/pages/design.html">设计路线</a></li></ul></section><section class="directory-group"><h2>研究</h2><ul><li><a href="/ai-synbio-wiki/pages/ai-computational-methods.html">AI 与计算方法</a></li><li><a href="/ai-synbio-wiki/pages/wet-lab-experiments.html" aria-current="page">实验与结果</a></li><li><a href="/ai-synbio-wiki/pages/parts.html">构建体索引</a></li></ul></section><section class="directory-group"><h2>验证</h2><ul><li><a href="/ai-synbio-wiki/pages/integrated-validation.html">整合验证</a></li><li><a href="/ai-synbio-wiki/pages/verifiability.html">研究资料</a></li><li><a href="/ai-synbio-wiki/pages/engineering-cycle.html">工程迭代</a></li></ul></section><section class="directory-group"><h2>责任与贡献</h2><ul><li><a href="/ai-synbio-wiki/pages/ai-ethics-safety.html">AI 伦理与安全</a></li><li><a href="/ai-synbio-wiki/pages/human-practices.html">人类实践</a></li><li><a href="/ai-synbio-wiki/pages/education.html">教育与科普</a></li><li><a href="/ai-synbio-wiki/pages/collaboration.html">合作与支持</a></li><li><a href="/ai-synbio-wiki/pages/attributions.html">贡献与致谢</a></li></ul></section></aside>
+<main id="main-content" class="article-main" tabindex="-1">
+<header class="page-header"><p class="breadcrumb"><a href="/ai-synbio-wiki/index.html">首页</a><span aria-hidden="true"> / </span>研究</p><h1>实验与结果</h1><p class="page-summary">支架表征、siRNA 共组装与细胞及小鼠中的基因沉默。</p></header>
+<details class="mobile-toc"><summary>本页目录</summary><div class="toc">
+<ul>
+<li><a href="#overview">结果概览</a></li>
+<li><a href="#scaffold">支架表征与酸响应</a></li>
+<li><a href="#assembly">与 siRNA 共组装的颗粒</a></li>
+<li><a href="#structure-function">结构—功能关系：寻找平衡</a></li>
+<li><a href="#cell-delivery">细胞内递送与 GFP 沉默</a></li>
+<li><a href="#in-vivo">PEG 与电荷工程的体内结果</a></li>
+</ul>
+</div>
+</details>
+<article class="content">
+<h2 id="overview">结果概览</h2>
+<p>实验围绕支架酸响应、siRNA 共组装、结构—功能关系以及细胞和体内基因沉默展开。蛋白与颗粒表征解释结构行为，细胞活力与 mRNA 读出共同评价递送表现。</p>
+<h2 id="scaffold">支架表征与酸响应</h2>
+<p>重组蛋白表达纯化后，以 SDS-PAGE、CD 和 SEC 表征。CD 用于观察整体二级结构，SEC 比较不同 pH 下的洗脱行为，包埋染料的脂质体实验检测膜通透性变化。</p>
+<p>PR3H、PR2H、PR1H 分别含三层、两层和一层 His–Asn 网络。实验显示三者在 pH 8.0 均有主要早洗脱峰；酸化到 pH 5.5 时，PR3H 明显向晚洗脱组分偏移，到 pH 5.0 时不再出现原寡聚峰。PR2H 与 PR1H 在相同酸性条件下变化较小，类似转变发生在更酸性的条件。脂质体泄漏比较支持 PR3H 更强的酸依赖膜相互作用。[图1g–h]</p>
+<figure class="research-figure" id="fig-1"><img alt="PR3H 设计与不同网络层数变体的 CD、SEC 和脂质体泄漏比较" decoding="async" height="1349" loading="lazy" src="/ai-synbio-wiki/results/figures/main-01.webp" width="900"/><figcaption><strong>图 1 · 设计策略与支架表征</strong> a–d 为设计与结构示意；e 为 CD；f 为网络层数变体模型；g 为不同 pH 下的 SEC；h 为脂质体泄漏比较。 <a class="full-image" href="/ai-synbio-wiki/results/figures/main-01-full.png">查看大图 ↗</a></figcaption></figure>
+<p>SEC 支持表观寡聚行为变化，不提供原子分辨率结构。膜泄漏来自体外模型膜，不能作为细胞内逃逸率。整体 α-螺旋特征与局部 pH 响应可以同时存在。</p>
+<details>
+<summary>补充图：二级结构与表达纯化（S3–S4）</summary>
+<figure class="research-figure" id="fig-s3"><img alt="各变体的圆二色光谱" decoding="async" height="569" loading="lazy" src="/ai-synbio-wiki/results/figures/si-03.webp" width="900"/><figcaption><strong>图 S3 · 变体圆二色光谱</strong> 各设计变体的 CD 光谱显示整体 α-螺旋特征。 <a class="full-image" href="/ai-synbio-wiki/results/figures/si-03-full.png">查看大图 ↗</a></figcaption></figure>
+<figure class="research-figure" id="fig-s4"><img alt="设计蛋白的 SDS-PAGE 条带与分子量标记" decoding="async" height="421" loading="lazy" src="/ai-synbio-wiki/results/figures/si-04.webp" width="900"/><figcaption><strong>图 S4 · 蛋白 SDS-PAGE 表征</strong> 设计蛋白的 SDS-PAGE 条带与分子量标记。 <a class="full-image" href="/ai-synbio-wiki/results/figures/si-04-full.png">查看大图 ↗</a></figcaption></figure>
+</details>
+<h2 id="assembly">与 siRNA 共组装的颗粒</h2>
+<p>实验在 N/P = 10 条件下比较蛋白与 siRNA 共组装，N 指蛋白精氨酸与赖氨酸提供的有效阳离子基团。TEM 与 Cryo-EM 用于观察形态，DLS 与 zeta 用于整体颗粒的尺寸与表面电动电位表征。[图2]</p>
+<p>PR3H 与 siRNA 形成囊泡状纳米结构；Cryo-EM 的外壳点状密度支持较有序的组装形态。PR1H 和 PR2H 同样能共组装。酸化时，PR3H/siRNA 颗粒的 DLS 粒径增大、分布变宽；pH 4.0 下的 TEM 显示原类病毒形态丧失。</p>
+<figure class="research-figure" id="fig-2"><img alt="蛋白和 siRNA 共组装、TEM / Cryo-EM 及不同 pH 下的 DLS" decoding="async" height="1234" loading="lazy" src="/ai-synbio-wiki/results/figures/main-02.webp" width="900"/><figcaption><strong>图 2 · siRNA 共组装与酸响应</strong> a 为共组装示意；b 为 TEM / Cryo-EM；c 为酸响应机制；d 为 DLS；e 为 pH 4.0 下的形态。共组装条件为 N/P = 10。 <a class="full-image" href="/ai-synbio-wiki/results/figures/main-02-full.png">查看大图 ↗</a></figcaption></figure>
+<p>DLS 探测的是整个复合颗粒，其膨胀与异质性增加反映复合物层面的重组；SEC 则观察游离蛋白的寡聚行为。</p>
+<details>
+<summary>补充图：PR1H / PR2H 的共组装（S5）</summary>
+<figure class="research-figure" id="fig-s5"><img alt="PR1H 和 PR2H 复合颗粒的尺寸、电位与 TEM" decoding="async" height="821" loading="lazy" src="/ai-synbio-wiki/results/figures/si-05.webp" width="900"/><figcaption><strong>图 S5 · PR1H / PR2H 的 siRNA 组装</strong> a 为粒径与 zeta 电位；b、c 为 PR1H 和 PR2H 与 siRNA 共组装的 TEM。 <a class="full-image" href="/ai-synbio-wiki/results/figures/si-05-full.png">查看大图 ↗</a></figcaption></figure>
+</details>
+<h2 id="structure-function">结构—功能关系：寻找平衡</h2>
+<p>研究采用两类变体区分作用。PR3HM1 增强末端疏水性，PR3HM2 打断疏水连续性；PR3H3 与 PR3H5 则改变环区正电荷残基数。比较包含颗粒表征、凝胶阻滞、膜泄漏、细胞摄取与活力。[图3–4；SI S6–S9]</p>
+<p>PR3HM1 形成更紧凑的颗粒并增强膜泄漏，但细胞相容性下降；PR3HM2 的泄漏活性降低。低环区电荷削弱复合与低 N/P 下的摄取，高环区电荷虽能增强复合，却在高 N/P 下伴随细胞毒性。这些结果说明，膜相互作用与正电荷需在递送功能和相容性之间取得平衡。</p>
+<figure class="research-figure" id="fig-3"><img alt="末端疏水性与环区电荷的模型、膜泄漏和细胞摄取比较" decoding="async" height="1298" loading="lazy" src="/ai-synbio-wiki/results/figures/main-03.webp" width="900"/><figcaption><strong>图 3 · 末端疏水性和环区电荷比较</strong> a–d 比较末端疏水性及膜相互作用；e–h 比较环区电荷、颗粒表征与流式摄取。PR3H3、PR3H、PR3H5 的环区分别含三个、四个、五个正电荷残基。 <a class="full-image" href="/ai-synbio-wiki/results/figures/main-03-full.png">查看大图 ↗</a></figcaption></figure>
+<details>
+<summary>补充图：电荷、组装、摄取与内吞途径（S6–S9）</summary>
+<figure class="research-figure" id="fig-s6"><img alt="环区静电表面模型与 siRNA 凝胶阻滞" decoding="async" height="613" loading="lazy" src="/ai-synbio-wiki/results/figures/si-06.webp" width="900"/><figcaption><strong>图 S6 · 环区电荷与 siRNA 结合</strong> a 为 PR3H3、PR3H、PR3H5 的静电表面模型；b 为 siRNA 凝胶阻滞。 <a class="full-image" href="/ai-synbio-wiki/results/figures/si-06-full.png">查看大图 ↗</a></figcaption></figure>
+<figure class="research-figure" id="fig-s7"><img alt="各变体的 DLS 粒径与颗粒 TEM" decoding="async" height="1320" loading="lazy" src="/ai-synbio-wiki/results/figures/si-07.webp" width="900"/><figcaption><strong>图 S7 · 变体颗粒尺寸与 TEM</strong> a 为 DLS 粒径；b 为 PR3HM1、PR3HM2、PR3H3、PR3H5 的 siRNA 组装体 TEM。 <a class="full-image" href="/ai-synbio-wiki/results/figures/si-07-full.png">查看大图 ↗</a></figcaption></figure>
+<figure class="research-figure" id="fig-s8"><img alt="不同 N/P 条件下的流式细胞摄取" decoding="async" height="627" loading="lazy" src="/ai-synbio-wiki/results/figures/si-08.webp" width="900"/><figcaption><strong>图 S8 · 细胞摄取流式分析</strong> 不同变体及 N/P 条件下的流式细胞摄取结果。 <a class="full-image" href="/ai-synbio-wiki/results/figures/si-08-full.png">查看大图 ↗</a></figcaption></figure>
+<figure class="research-figure" id="fig-s9"><img alt="抑制剂条件下的流式摄取与细胞荧光面板" decoding="async" height="1378" loading="lazy" src="/ai-synbio-wiki/results/figures/si-09.webp" width="900"/><figcaption><strong>图 S9 · PR3H 摄取途径分析</strong> a 为内吞抑制剂条件下的流式摄取比较；b 为细胞荧光图像。氯丙嗪抑制结果支持网格蛋白相关内吞参与摄取。 <a class="full-image" href="/ai-synbio-wiki/results/figures/si-09-full.png">查看大图 ↗</a></figcaption></figure>
+</details>
+<p>内吞抑制实验中，氯丙嗪明显减少 PR3H/siRNA 摄取，据此将网格蛋白相关内吞列为主要支持路径。该抑制剂比较不证明只有一种摄取途径，也不直接量化胞质释放。</p>
+<h2 id="cell-delivery">细胞内递送与 GFP 沉默</h2>
+<p>实验在 HeLa 细胞中观察 FAM-siRNA 的运输，并在表达 GFP 的 HeLa 细胞中使用抗 GFP siRNA 检测功能性递送。SI 方法记载 GFP/EGFP 相对 GAPDH 的 qRT-PCR 分析，以裸 siRNA 为阴性、Lipofectamine 2000 为阳性对照；细胞相容性采用 CCK-8 读出。[SI Experimental Section]</p>
+<p>共聚焦图在不同孵育时间显示细胞相关与细胞内荧光变化；较少的 LysoTracker 共定位支持部分货物不再滞留于强酸性区室，但不能据图推算逃逸百分比。图4c 的 qPCR 结果显示 PR3H 组 GFP 表达降低，细胞活力测试显示其在测试浓度范围内具有较好的相容性。[图4a–d]</p>
+<figure class="research-figure" id="fig-4"><img alt="HeLa 共聚焦、GFP 荧光、qPCR 敲低和细胞活力" decoding="async" height="1450" loading="lazy" src="/ai-synbio-wiki/results/figures/main-04.webp" width="900"/><figcaption><strong>图 4 · 细胞内递送与 GFP 沉默</strong> a 为 HeLa 细胞内 FAM-siRNA 的共聚焦图像，标尺 10 μm；b 为 GFP-HeLa 荧光观察；c 为 qPCR 沉默结果；d 为细胞活力。 <a class="full-image" href="/ai-synbio-wiki/results/figures/main-04-full.png">查看大图 ↗</a></figcaption></figure>
+<figure class="research-figure" id="detail-cell"><img alt="图4c–d 局部：qPCR 沉默结果与细胞活力" decoding="async" height="666" loading="lazy" src="/ai-synbio-wiki/results/figures/detail-cell.webp" width="1270"/><figcaption><strong>图4c–d · GFP 沉默与细胞活力局部</strong> 图4c–d 局部：对照不同处理组的 GFP 沉默与细胞活力。 <a class="full-image" href="/ai-synbio-wiki/results/figures/detail-cell-full.png">查看大图 ↗</a></figcaption></figure>
+<p>Lipofectamine 2000 作为阳性对照，其 GFP 荧光图像见补充图 S10。</p>
+<details>
+<summary>补充图：阳性对照 GFP 图像（S10）</summary>
+<figure class="research-figure" id="fig-s10"><img alt="Lipofectamine 2000 阳性对照的明场与 GFP 荧光" decoding="async" height="371" loading="lazy" src="/ai-synbio-wiki/results/figures/si-10.webp" width="343"/><figcaption><strong>图 S10 · Lipofectamine 2000 阳性对照</strong> Lipofectamine 2000 阳性对照的明场与 GFP 荧光图像。 <a class="full-image" href="/ai-synbio-wiki/results/figures/si-10-full.png">查看大图 ↗</a></figcaption></figure>
+</details>
+<h2 id="in-vivo">PEG 与电荷工程的体内结果</h2>
+<p>研究通过 C 端半胱氨酸进行 PEG 偶联，比较 PEG2000、PEG5000 及不同摩尔比；再引入 N 端阳离子或阴离子片段。小鼠实验使用靶向 PTEN 的 siRNA，静脉给药剂量为 0.5 mg/kg，3 天后检测器官 PTEN mRNA。[SI Animal studies / In Vivo siPTEN Delivery]</p>
+<p><strong>PEG 比较。</strong> 在所测试条件下，PEG2000 组通常比相应 PEG5000 组产生更强的 PTEN 沉默。这一差异可能反映屏蔽与保留细胞相互作用之间的平衡。图5d 与 S11 展示完整器官比较。</p>
+<figure class="research-figure" id="fig-5"><img alt="PEG 和 N 端电荷工程的颗粒特征与器官 PTEN mRNA 结果" decoding="async" height="1200" loading="lazy" src="/ai-synbio-wiki/results/figures/main-05.webp" width="900"/><figcaption><strong>图 5 · PEG 与表面电荷工程</strong> a–c 为 C 端 PEG 修饰及颗粒表征；d 为 PEG 条件下器官相对 mRNA；e–g 为 N 端电荷工程及颗粒表征；h–j 为器官 PTEN mRNA 比较。TEM 标尺 100 nm；小鼠静脉 siRNA 0.5 mg/kg，3 天后测定。 <a class="full-image" href="/ai-synbio-wiki/results/figures/main-05-full.png">查看大图 ↗</a></figcaption></figure>
+<p><strong>电荷比较。</strong> 实验显示阳离子变体增强肝脏功能性 PTEN 沉默，阴离子变体增强脾脏功能性沉默。各变体的器官 PTEN 敲低结果如下。</p>
+
+<div aria-label="各变体的器官 PTEN 敲低（图5i–j）" class="table-region" role="region" tabindex="0"><table><caption>各变体的器官 PTEN 敲低（图5i–j）</caption>
+<thead>
+<tr>
+<th scope="col">变体</th>
+<th scope="col">器官</th>
+<th scope="col">PTEN 敲低（约）</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3R-PR3H</td>
+<td>肝脏</td>
+<td>42%</td>
+</tr>
+<tr>
+<td>6R-PR3H</td>
+<td>肝脏</td>
+<td>49%</td>
+</tr>
+<tr>
+<td>5RK-PR3H</td>
+<td>肝脏</td>
+<td>41%</td>
+</tr>
+<tr>
+<td>9R-PR3H</td>
+<td>肝脏</td>
+<td>60%</td>
+</tr>
+<tr>
+<td>6D-PR3H</td>
+<td>脾脏</td>
+<td>38%</td>
+</tr>
+<tr>
+<td>4D2E-PR3H</td>
+<td>脾脏</td>
+<td>40%</td>
+</tr>
+<tr>
+<td>6D2E-PR3H</td>
+<td>脾脏</td>
+<td>52%</td>
+</tr>
+</tbody>
+</table></div>
+<figure class="research-figure" id="detail-organ"><img alt="图5h–j 局部：器官相对 mRNA 热图与肝脾比较" decoding="async" height="470" loading="lazy" src="/ai-synbio-wiki/results/figures/detail-organ.webp" width="1268"/><figcaption><strong>图5h–j · 器官 mRNA 读出局部</strong> 图5h–j 局部：器官相对 mRNA 热图及肝脏、脾脏比较。 <a class="full-image" href="/ai-synbio-wiki/results/figures/detail-organ-full.png">查看大图 ↗</a></figcaption></figure>
+<p>这里的“器官偏向性”以功能性基因沉默为依据，不直接证明颗粒的器官分布、疾病治疗效果或人体安全性。图5以均值 ± SD 表示结果。动物伦理信息见 <a href="/ai-synbio-wiki/pages/ai-ethics-safety.html#animal">安全页</a>。</p>
+<details>
+<summary>补充图：PEG、电荷模型及器官读出（S11–S13）</summary>
+<figure class="research-figure" id="fig-s11"><img alt="PEG 修饰条件下各器官 PTEN mRNA 比较" decoding="async" height="1307" loading="lazy" src="/ai-synbio-wiki/results/figures/si-11.webp" width="900"/><figcaption><strong>图 S11 · PEG 修饰载体的体内 PTEN 沉默</strong> PEG2000 / PEG5000 及不同共轭比例下的器官 PTEN mRNA 比较，对应主文图 5d。 <a class="full-image" href="/ai-synbio-wiki/results/figures/si-11-full.png">查看大图 ↗</a></figcaption></figure>
+<figure class="research-figure" id="fig-s12"><img alt="N 端电荷工程变体的结构模型" decoding="async" height="1120" loading="lazy" src="/ai-synbio-wiki/results/figures/si-12.webp" width="900"/><figcaption><strong>图 S12 · 表面电荷工程结构模型</strong> N 端带正电或负电片段的结构模型。 <a class="full-image" href="/ai-synbio-wiki/results/figures/si-12-full.png">查看大图 ↗</a></figcaption></figure>
+<figure class="research-figure" id="fig-s13"><img alt="不同电荷工程变体在主要器官中的 PTEN mRNA 比较" decoding="async" height="1416" loading="lazy" src="/ai-synbio-wiki/results/figures/si-13.webp" width="900"/><figcaption><strong>图 S13 · 电荷工程载体的体内 PTEN 沉默</strong> 不同 N 端电荷工程变体的器官 PTEN mRNA 比较。 <a class="full-image" href="/ai-synbio-wiki/results/figures/si-13-full.png">查看大图 ↗</a></figcaption></figure>
+</details></article>
+<nav class="page-pagination" aria-label="上一篇与下一篇"><a href="/ai-synbio-wiki/pages/ai-computational-methods.html"><span>← 上一页</span>AI 与计算方法</a><a href="/ai-synbio-wiki/pages/parts.html"><span>下一页 →</span>构建体索引</a></nav>
+</main>
+<aside class="page-toc" aria-label="本页目录"><p class="eyebrow">本页目录</p><div class="toc">
+<ul>
+<li><a href="#overview">结果概览</a></li>
+<li><a href="#scaffold">支架表征与酸响应</a></li>
+<li><a href="#assembly">与 siRNA 共组装的颗粒</a></li>
+<li><a href="#structure-function">结构—功能关系：寻找平衡</a></li>
+<li><a href="#cell-delivery">细胞内递送与 GFP 沉默</a></li>
+<li><a href="#in-vivo">PEG 与电荷工程的体内结果</a></li>
+</ul>
+</div>
+<a class="back-top" href="#main-content">返回顶部 ↑</a></aside>
+</div>
+
+<footer class="site-footer"><div class="container footer-inner"><div><strong>TJU-why</strong><p>天津大学 · pH 响应蛋白载体</p></div><nav aria-label="页脚导航"><a href="/ai-synbio-wiki/pages/ai-ethics-safety.html">伦理与安全</a><a href="/ai-synbio-wiki/pages/attributions.html">贡献与致谢</a><a href="/ai-synbio-wiki/pages/verifiability.html">研究资料</a></nav></div><div class="container footer-bottom"><span>© 2026 TJU-why</span></div></footer>
+</body></html>
